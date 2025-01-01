@@ -10,7 +10,7 @@ const {
 
 module.exports = {
 	name: 'prefix',
-	aliases: ["setprefix"],
+	aliases: ["!"],
 	run: async (client, message, args, prefix, color) => {
 
 		if (client.config.owner.includes(message.author.id)) {
